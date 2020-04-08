@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utext.Parametri>
+  <impostazioni>
+    <usernameUtente>graziano38</usernameUtente>
+    <numeroGiorniGrafico>7</numeroGiorniGrafico>
+	<numeroAmiciTabella>10</numeroAmiciTabella>
+    <numeroMessaggiTabella>25</numeroMessaggiTabella>
+  </impostazioni>
+  <network>
+    <indirizzoDBMS>jdbc:mysql://localhost</indirizzoDBMS>
+    <portaDBMS>3306</portaDBMS>
+    <usernameDBMS>root</usernameDBMS>
+    <passwordDBMS></passwordDBMS>
+    <indirizzoServer>localhost</indirizzoServer>
+    <portaServer>7799</portaServer>
+    <indirizzoServerLog>localhost</indirizzoServerLog>
+    <portaServerLog>9977</portaServerLog>
+  </network>
+  <stile>
+    <fontMessaggi>Arial</fontMessaggi>
+    <dimensioneMessaggi>9</dimensioneMessaggi>
+    <coloreMessaggi>black</coloreMessaggi>
+  </stile>
+</utext.Parametri>

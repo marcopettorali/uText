@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="utext.Parametri">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="impostazioni">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="usernameUtente"/>
+              <xs:element type="xs:int" name="numeroGiorniGrafico"/>
+			  <xs:element type="xs:int" name="numeroAmiciTabella"/>
+              <xs:element type="xs:int" name="numeroMessaggiTabella"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="network">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="indirizzoDBMS"/>
+              <xs:element type="xs:int" name="portaDBMS"/>
+              <xs:element type="xs:string" name="usernameDBMS"/>
+              <xs:element type="xs:string" name="passwordDBMS"/>
+              <xs:element type="xs:string" name="indirizzoServer"/>
+              <xs:element type="xs:int" name="portaServer"/>
+              <xs:element type="xs:string" name="indirizzoServerLog"/>
+              <xs:element type="xs:int" name="portaServerLog"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stile">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="fontMessaggi"/>
+              <xs:element type="xs:int" name="dimensioneMessaggi"/>
+              <xs:element type="xs:string" name="coloreMessaggi"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
